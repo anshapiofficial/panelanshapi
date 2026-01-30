@@ -29,7 +29,7 @@ ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "admin123")  # Default admin p
 
 MOTHER_API_URL = "https://mothernuminfo.asapiservices.workers.dev/mobile-lookup"
 MOTHER_API_KEY = "anshapi123"  # Fixed mother API key
-API_BASE_URL = os.environ.get("API_BASE_URL", "http://localhost:10000")  # Fixed for local
+API_BASE_URL = os.environ.get("API_BASE_URL", "http://panelanshapi.onrender.com/")  # Fixed for local
 
 # App settings for Render.com
 HOST = "0.0.0.0"
